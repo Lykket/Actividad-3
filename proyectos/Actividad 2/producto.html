@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Producto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Registro de Producto</h1>
+    <form action="guardado.html" method="post">
+        <label>Código</label>
+        <input type="text" id="txtCodigo">
+        <br><br>
+
+        <label>Descripción</label>
+        <input type="text" id="txtDescripcion">
+        <br><br>
+        
+        <label>Código de Barra</label>
+        <input type="text" id="txtBarra">
+        <br><br>
+
+        <label>Precio Unitario</label>
+        <input type="text" id="txtPrecioU">
+        <br><br>
+
+        <label>Stock</label>
+        <input type="text" id="txtStock">
+        <br><br>
+
+        <label>Proveedor</label>
+        <input type="text" id="txtProveedor">
+        <br><br>
+
+        <label>Estado</label>
+        <input type="checkbox" id="chEstado"> Estado
+        <br><br>
+
+        <label>Categoría</label>
+        <select id="categoria" name="categorias">
+            <option>Categoría 1</option>
+            <option>Categoría 2</option>
+            <option>Categoría 3</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Guardar</button> 
+    </form>
+    <br>
+    <form action="index.html">
+        <button type="submit">Cancelar</button>
+    </form>
+</body>
+</html>

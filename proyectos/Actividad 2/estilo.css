@@ -1,0 +1,47 @@
+.nuevo{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.editar{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.eliminar{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.nuevo:hover,.editar:hover,.eliminar:hover {
+    background-color: white;
+    color: black;
+  }
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    text-align: center;
+}
+
+form{
+    width: 150px;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+button{
+  text-align: center;;
+}
